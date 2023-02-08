@@ -30,6 +30,12 @@ const razonimate = new Razonimate();
 razonimate.init();
 ```
 
+## Install using NPM
+
+```Linux
+npm install razonimate --save
+```
+
 ## Animations
 
 Razonimate provides the following animations:
