@@ -1,0 +1,131 @@
+:root{
+	--white: #ffffff;
+}
+button,
+textarea,
+input,
+select,
+a{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+@font-face{
+	src: url(../font/Poppins-Regular.ttf);
+	font-family: poppins;
+}
+@font-face{
+	src: url(../font/Poppins-Bold.ttf);
+	font-family: poppinsBold;
+}
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: poppins;
+}
+html, body{
+	height: 100%;
+}
+
+main{
+	height: 100%;
+	width: 100%;
+	background: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main > div > h1{
+	font-family: poppinsBold;
+	font-size: 3em;
+}
+main > div > h1, main > div > p{
+	text-align: center;
+	color: var(--white);
+}
+main > div > div{
+	width: fit-content;
+	margin: auto;
+	margin-top: 20px;
+}
+main > div > div >  a{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: var(--white);
+	padding: 10px;
+	border: 2px solid var(--white);
+	border-radius: 8px;
+	font-size: .8em;
+}
+
+#section1{
+	height: auto;
+	background-color: #72c713;
+	overflow: hidden;
+}
+#section1 > div{
+	width: 90%;
+	margin: auto;
+}
+#section1 > div > .show-effect-left, #section1 > div > .show-effect-right{
+	display: flex;
+	margin-bottom: 200px;
+}
+.left{
+	width: calc(40% - 80px);
+	text-align: center;
+	padding: 40px;
+	background-color: #218d06;
+}
+.right{
+	margin-left: auto;
+	margin-right: 0;
+	width: calc(40% - 80px);
+	text-align: center;
+	padding: 40px;
+	background-color: #218d06;
+}
+
+@media(max-width: 768px){
+	.left, .right{
+		width: calc(80% - 40px);
+		padding: 20px;
+	}
+}
+
+
+footer{
+	background-color: #218d06;
+	padding: 50px 200px;
+}
+footer > h2, footer > h4{
+	text-transform: uppercase;
+	color: var(--white);
+}
+footer > h4{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+p{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	color: var(--white);
+}
+@media(max-width: 768px){
+	footer{
+		width: calc(100% - 50px);
+		padding: 25px;
+	}
+}

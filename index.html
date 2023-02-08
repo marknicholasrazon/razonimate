@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width"/>
+  <meta charSet="utf-8"/>
+	<title>Razonimate - A library for creating scroll-based animations.</title>
+	<meta name="robots" content="follow, index"/>
+  <meta content="A library for creating scroll-based animations." name="description"/>
+  <meta property="og:url" content="https://marknicholasrazon.github.io/razonimate"/>
+  <link rel="canonical" href="https://marknicholasrazon.github.io/razonimate"/>
+  <link rel="stylesheet" type="text/css" href="assets/index.css">
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Razonimate"/>
+  <meta property="og:description" content="A library for creating scroll-based animations."/>
+  <meta property="og:title" content="Razonimate - A library for creating scroll-based animations."/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@razonimate"/>
+  <meta name="twitter:title" content="Razonimate - A library for creating scroll-based animations."/>
+  <meta name="twitter:description" content="A library for creating scroll-based animations."/>
+  <meta name="twitter:image" content="/avatar.png"/>
+  <meta name="next-head-count" content="18"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/styles/default.min.css">
+  <link rel="stylesheet" type="text/css" href="https://marknicholasrazon.github.io/razonimate/razonimate.css">
+  <script src="https://marknicholasrazon.github.io/razonimate/razonimate.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<main>
+	<div>
+		<h1>Razonimate</h1>
+		<p>A javascript library for creating scroll-based animations.</p>
+		<div>
+			<a href="razonimate.zip" download="">Download</a>
+			<a href="#" onclick="window.open('https://github.com/marknicholasrazon/razonimate')">View on Github</a>
+		</div>
+	</div>
+</main>
+
+<section id="section1">
+	<div>
+		<div class="show-effect-left">
+			<div class="right" data-razon-duration="2000" data-razon="fade">
+				<pre><code>&lt;div class="fade"&gt;fade&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="fade-right">
+				<pre><code>&lt;div class="fade-right"&gt;fade right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="right" data-razon="fade-left">
+				<pre><code>&lt;div class="fade-left"&gt;fade left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="fade-up">
+				<pre><code>&lt;div class="fade-up"&gt;fade up&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="right" data-razon="fade-down">
+				<pre><code>&lt;div class="fade-down"&gt;fade down&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="left" data-razon="fade-up-right">
+				<pre><code>&lt;div class="fade-up-right"&gt;fade up right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="fade-up-left">
+				<pre><code>&lt;div class="fade-up-left"&gt;fade up left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="left" data-razon="fade-down-right">
+				<pre><code>&lt;div class="fade-down-right"&gt;fade down right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="fade-down-left">
+				<pre><code>&lt;div class="fade-down-left"&gt;fade down left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="left" data-razon-duration="2000" data-razon="flip-right">
+				<pre><code>&lt;div class="flip-right"&gt;flip right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon-duration="2000" data-razon="flip-left">
+				<pre><code>&lt;div class="flip-left"&gt;flip left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="left" data-razon-duration="2000" data-razon="flip-up">
+				<pre><code>&lt;div class="flip-up"&gt;flip up&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon-duration="2000" data-razon="flip-down">
+				<pre><code>&lt;div class="flip-down"&gt;flip down&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-left">
+			<div class="left" data-razon-duration="1000" data-razon="zoom-in">
+				<pre><code>&lt;div class="zoom-in"&gt;zoom-in&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon-duration="1000" data-razon="zoom-in-up">
+				<pre><code>&lt;div class="zoom-in-up"&gt;zoom in up&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon-duration="1000" data-razon="zoom-in-down">
+				<pre><code>&lt;div class="zoom-in-down"&gt;zoom in down&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon-duration="1000" data-razon="zoom-in-right">
+				<pre><code>&lt;div class="zoom-in-right"&gt;zoom in right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon-duration="1000" data-razon="zoom-in-left">
+				<pre><code>&lt;div class="zoom-in-left"&gt;zoom in left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="slide-right">
+				<pre><code>&lt;div class="slide-right"&gt;slide right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="slide-left">
+				<pre><code>&lt;div class="slide-left"&gt;slide left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="slide-up">
+				<pre><code>&lt;div class="slide-up"&gt;slide up&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="slide-down">
+				<pre><code>&lt;div class="slide-down"&gt;slide down&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="shuffle-right">
+				<pre><code>&lt;div class="shuffle-right"&gt;shuffle right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="shuffle-left">
+				<pre><code>&lt;div class="shuffle-left"&gt;shuffle left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon="rotate-right">
+				<pre><code>&lt;div class="rotate-right"&gt;rotate right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon="rotate-left">
+				<pre><code>&lt;div class="rotate-left"&gt;rotate left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="right" data-razon-duration="2000" data-razon="skew-right">
+				<pre><code>&lt;div class="skew-right"&gt;skew right&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<div class="show-effect-right">
+			<div class="left" data-razon-duration="2000" data-razon="skew-left">
+				<pre><code>&lt;div class="skew-left"&gt;skew left&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<h2>install using npm</h2><br>
+	<pre><code>
+	npm install razonimate --save
+	</code></pre>
+
+	<br><br>
+	<h2>cdn sources</h2><br>
+	<h4>css</h4>
+	<pre><code>&lt;link rel="stylesheet" type="text/css" href="https://marknicholasrazon.github.io/razonimate/razonimate.css"&gt;</code></pre>
+	<h4>js</h4>
+	<pre><code>&lt;script src="https://marknicholasrazon.github.io/razonimate/razonimate.js"&gt;&lt;/script&gt;</code></pre>
+
+	<br><br>
+	<h2>initialize razonimate</h2><br>
+	<pre><code>
+	const razonimate = new Razonimate();
+	razonimate.init();
+	</code></pre>
+	<p>Made with 💘 by Mark Nicholas Razon</p>
+</footer>
+
+
+<script src="assets/index.js"></script>
+<script type="text/javascript">
+	const razonimate = new Razonimate();
+	razonimate.init();
+</script>
+</body>
+</html>
