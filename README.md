@@ -69,6 +69,39 @@ Razonimate provides the following animations:
 - skew-left
 - skew-right
 
+## Sample Code
+
+```Linux
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://marknicholasrazon.github.io/razonimate/razonimate.css">
+	<style type="text/css">
+		p{
+			padding: 20px;
+			background-color: red;
+			margin-bottom: 100px;
+			width: fit-content;
+		}
+	</style>
+</head>
+<body>
+
+<p data-razon-duration="2000" data-razon="fade">hello</p>
+<p data-razon-duration="2000" data-razon="fade-right">hello</p>
+<p data-razon-duration="2000" data-razon="zoom-in-left">hello</p>
+
+
+<script src="https://marknicholasrazon.github.io/razonimate/razonimate.js"></script>
+<script type="text/javascript">
+	const razonimate = new Razonimate();
+	razonimate.init();
+</script>
+</body>
+</html>
+```
+
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://marknicholasrazon.github.io/portfolio/)
 
