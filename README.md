@@ -71,7 +71,7 @@ Razonimate provides the following animations:
 
 ## Sample Code
 
-```Linux
+```html
 <!DOCTYPE html>
 <html>
 <head>
