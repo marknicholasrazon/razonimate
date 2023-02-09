@@ -204,6 +204,23 @@
 	<pre><code>&lt;link rel="stylesheet" type="text/css" href="https://marknicholasrazon.github.io/razonimate/razonimate.css"&gt;</code></pre>
 	<h4>js</h4>
 	<pre><code>&lt;script src="https://marknicholasrazon.github.io/razonimate/razonimate.js"&gt;&lt;/script&gt;</code></pre>
+	<h4>custom animate js</h4>
+	<pre><code>&lt;script src="https://marknicholasrazon.github.io/razonimate/custom-razonimate.js"&gt;&lt;/script&gt;</code></pre>
+
+	<br><br>
+	<h2>custom animate</h2><br>
+	<pre><code>
+	const element = new Razonimate('.div1', {
+	  backgroundColor: 'red',
+	  opacity: 1,
+	  textColor: 'white',
+	  duration: 2000,
+	  easing: 'ease-in-out',
+	  offsetX: -100,
+	  offsetY: 0,
+	  scale: 1
+	}); 
+	</code></pre>
 
 	<br><br>
 	<h2>initialize razonimate</h2><br>
@@ -217,8 +234,8 @@
 
 <script src="assets/index.js"></script>
 <script type="text/javascript">
-	const razonimate = new Razonimate();
-	razonimate.init();
+	const razon = new Razonimate();
+	razon.init();	
 </script>
 </body>
 </html>
