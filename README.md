@@ -21,19 +21,19 @@ Or you can include the library in your HTML file:
 
 ### css
 ```html
-<link rel="stylesheet" type="text/css" href="https://marknicholasrazon.github.io/razonimate/razonimate.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/razonimate@1.0.2/razonimate.css">
 ```
 
 ### JavaScript
 
 Fixed Animations
 ```javascript
-<script src="https://marknicholasrazon.github.io/razonimate/razonimate.js"></script>
+<script src="https://unpkg.com/razonimate@1.0.2/razonimate.js"></script>
 ```
 
 Custom Animation
 ```javascript
-<script src="https://marknicholasrazon.github.io/razonimate/custom-razonimate.js"></script>
+<script src="https://unpkg.com/razonimate@1.0.2/custom-razonimate.js"></script>
 ```
 
 ## Usage
